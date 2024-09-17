@@ -25,3 +25,25 @@ body {
     height: 450px;
     border: 0;
 }
+
+
+
+
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 8px;
+        text-align: center;
+    }
+    caption {
+        caption-side: top;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
