@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: red
+}
+
+h2 {
+    font-size: 1.5em;
+    Color: blue
+}
+
+.evenrow {
+    background-color: #d0d0d0;
+}
