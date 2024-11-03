@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive's Car Rental</title>
+</head>
+<body>
+
+    <!-- Header with Logo and Navigation -->
+    <header class="header">
+        <div class="logo">
+            <h1>Olive's Car Rental</h1>
+        </div>
+        <nav class="nav-menu">
+            <button class="nav-toggle" aria-label="Open navigation menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Fleet</a></li>
+                <li><a href="#">Booking Info</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner -->
+    <section class="main-banner">
+        <h2>Welcome to Olive's Car Rental</h2>
+        <button>Explore Our Fleet</button>
+    </section>
+
+    <!-- Image Section (Promotional Images) -->
+    <section class="promo-images">
+        <img src="https://unsplash.com/photos/583ucCmZB6E/download?force=true&w=640" alt="Young man standing near a car for rental service">
+        <img src="https://unsplash.com/photos/Nso8AYRFivM/download?force=true&w=640" alt="Female buyer sitting in her new car receiving keys">
+    </section>
+
+    <!-- Car Categories -->
+    <section class="car-categories">
+
+        <!-- Economy Cars Section -->
+        <div class="car-category">
+            <img src="https://source.unsplash.com/random/640x480/?car,economy" alt="Economy Car">
+            <h3>Economy Cars</h3>
+            <p>Perfect for city driving and short trips, our economy cars offer fuel efficiency and easy maneuverability.</p>
+            <p><strong>Example Vehicles:</strong> Toyota Corolla, Honda Civic</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Luxury Cars Section -->
+        <div class="car-category">
+            <img src="https://source.unsplash.com/random/640x480/?luxury,car" alt="Luxury Car">
+            <h3>Luxury Cars</h3>
+            <p>Arrive in style with our selection of luxury vehicles. Ideal for special occasions and business trips.</p>
+            <p><strong>Example Vehicles:</strong> BMW 5 Series, Mercedes-Benz E-Class</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- SUVs Section -->
+        <div class="car-category">
+            <img src="https://source.unsplash.com/random/640x480/?SUV,car" alt="SUV">
+            <h3>SUVs</h3>
+            <p>Need more space? Our SUVs provide ample room for passengers and luggage, making them perfect for family vacations.</p>
+            <p><strong>Example Vehicles:</strong> Ford Explorer, Chevrolet Tahoe</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Trucks and Vans Section -->
+        <div class="car-category">
+            <img src="https://source.unsplash.com/random/640x480/?truck,van" alt="Truck or Van">
+            <h3>Trucks and Vans</h3>
+            <p>Moving large items or need extra cargo space? Our trucks and vans are the perfect solution.</p>
+            <p><strong>Example Vehicles:</strong> Ford Transit, Chevrolet Silverado</p>
+            <button>View Details</button>
+        </div>
+
+    </section>
+
+    <script>
+        // Toggle navigation menu on mobile
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('nav-links-visible');
+        });
+    </script>
+</body>
+</html>
