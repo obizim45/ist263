@@ -5,6 +5,7 @@
 
 
 
+
 body {
     background-color: #00264D; 
     color: #E6E6E6;
@@ -216,7 +217,7 @@ body {
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 229, 62);
 }
 
 h1 {
@@ -268,43 +269,3 @@ p {
     margin-top: 0;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
