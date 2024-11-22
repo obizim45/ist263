@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+    <a href="#main-content" id="skip-to-content">Skip to Content</a>
+
+    <nav>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+    </nav>
+
+    <h1>Contact</h1>
+
+    <main id="main-content">
+        <div class="flex-container">
+            <div class="flex-item contact-info">
+                <p>Syracuse University</p>
+                <p>HINDS Hall 111</p>
+                <p>Syracuse, NY 13244</p>
+                <p><a href="mailto:biziman@syr.edu" tabindex="4">obiziman@syr.edu</a></p>
+                <a href="https://www.linkedin.com" target="_blank" tabindex="5">
+                    <img src="https://github.com/obizim45/ist263/blob/main/images/LinkedIn_Logo.svg" alt="LinkedIn logo" class="linkedin-logo">
+                    My LinkedIn Profile
+                </a>
+            </div>
+
+            <div class="flex-item map-container">
+                <iframe 
+                    src="https://maps.google.com/maps?q=syracuse%20university&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    class="map"
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title="Syracuse University Map">
+                </iframe>
+            </div>
+        </div>
+
+        <form action="https://formspree.io/f/xblrevpl" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+            
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
