@@ -133,7 +133,7 @@ h1 {
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(251, 233, 233);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
 }
 
 .map {
@@ -199,6 +199,15 @@ form input[type="submit"]:hover {
 }
 
 
+.contact-info p{
+    color: black; 
+    font-size:x-large;
+}
+
+.contact-info a {
+    color: black; 
+}
+
 
 
 
@@ -228,6 +237,7 @@ p {
     text-align: center;
     max-width: 600px;
     margin: 0 auto 20px;
+
 }
 
 /* Flexbox layout for skills */
