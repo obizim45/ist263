@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olivie's Car Rental</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header class="header">
+        <div class="logo">
+            <h1>Olivie's Car Rental</h1>
+        </div>
+        <nav class="nav-menu">
+            <button class="nav-toggle" aria-label="Open navigation menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Fleet.html">Our Fleet</a></li>
+                <li><a href="Booking.html">Booking Info</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Banner -->
+    <section class="main-banner">
+        <h2>Welcome to Olivie's Car Rental</h2>
+        <button> <a href="Fleet.html"> Explore Our Fleet</a></button>
+    </section>
+
+
+ <!-- Filter and Search Menu -->
+ <section class="filter-menu">
+    <div class="filter-container">
+        <select name="state" id="state">
+            <option value="">Select State</option>
+            <option value="NY">New York</option>
+            <option value="CA">California</option>
+            <option value="TX">Texas</option>
+        </select> 
+        <select name="city" id="city">
+            <option value="">Select City</option>
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Dallas">Dallas</option>
+        </select> 
+        <select name="year" id="year">
+            <option value="">Select Year</option>
+            <option value="2023">2015</option>
+            <option value="2023">2016</option>
+            <option value="2023">2017</option>
+            <option value="2023">2018</option>
+            <option value="2023">2019</option>
+            <option value="2023">2020</option>
+            <option value="2023">2021</option>
+            <option value="2023">2022</option>
+            <option value="2023">2023</option>
+        </select> 
+        <select name="make" id="make">
+            <option value="">Select Make</option>
+            <option value="Toyota">Toyota</option>
+            <option value="BMW">BMW</option>
+            <option value="Ford">Ford</option>
+            <option value="Ford">Honda</option>
+            <option value="Ford">Accura</option>
+            <option value="Ford">Lexus</option>
+            <option value="Ford">Jeep</option>
+            <option value="Ford">Dodge</option>
+
+        </select> 
+        <select name="model" id="model">
+            <option value="">Select Model</option>
+            <option value="Corolla">Corolla</option>
+            <option value="Civic">Civic</option>
+            <option value="Explorer">Explorer</option>
+        </select> 
+        <select name="trim" id="trim">
+            <option value="">Select Trim</option>
+            <option value="Base">Base</option>
+            <option value="Sport">Sport</option>
+            <option value="Luxury">Luxury</option>
+       
+
+        <div class="search-sort">
+            <input type="text" id="inventory-search" placeholder="Search inventory..." />
+            <button>Search</button>
+            <button>Sort</button>
+        
+    
+    </div>
+
+
+
+
+
+
+
+    <!-- Image Section (Promotional Images) -->
+    <section class="promo-images">
+        <img
+            src="/Users/oliviebizimana/Documents/GitHub/ist263/images/promo_image.jpg"
+            alt="Young man standing near a car for rental service"
+        />
+        <img
+            src="/Users/oliviebizimana/Documents/GitHub/ist263/images/Promo.jpg"
+            alt="Female buyer sitting in her new car receiving keys"
+        />
+
+        <img
+        src="/Users/oliviebizimana/Documents/GitHub/ist263/images/open.jpg"
+        alt="Female buyer sitting in her new car receiving keys"
+    />
+    </section>
+
+    <!-- Car Categories -->
+    <section class="car-categories">
+        <!-- Economy Cars Section -->
+        <div class="car-category">
+            <img
+                src="/Users/oliviebizimana/Documents/GitHub/ist263/images/Economy.webp"
+                alt="Economy Car"
+            />
+            <h3>Economy Cars</h3>
+            <p>
+                Perfect for city driving and short trips, our economy cars offer fuel
+                efficiency and easy maneuverability.
+            </p>
+            <p><strong>Example Vehicles:</strong> Toyota Corolla, Honda Civic</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Luxury Cars Section -->
+        <div class="car-category">
+            <img
+                src="/Users/oliviebizimana/Documents/GitHub/ist263/images/Luxury.avif"
+                alt="Luxury Car"
+            />
+            <h3>Luxury Cars</h3>
+            <p>
+                Arrive in style with our selection of luxury vehicles. Ideal for
+                special occasions and business trips.
+            </p>
+            <p>
+                <strong>Example Vehicles:</strong> BMW 5 Series, Mercedes-Benz E-Class
+            </p>
+            <button>View Details</button>
+        </div>
+
+        <!-- SUVs Section -->
+        <div class="car-category">
+            <img
+                src="/Users/oliviebizimana/Documents/GitHub/ist263/images/Suvs.avif"
+                alt="SUV"
+            />
+            <h3>SUVs</h3>
+            <p>
+                Need more space? Our SUVs provide ample room for passengers and
+                luggage, making them perfect for family vacations.
+            </p>
+            <p><strong>Example Vehicles:</strong> Ford Explorer, Chevrolet Tahoe</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Trucks and Vans Section -->
+        <div class="car-category">
+            <img
+                src="/Users/oliviebizimana/Documents/GitHub/ist263/images/Trucks.webp"
+                alt="Truck or Van"
+            />
+            <h3>Trucks and Vans</h3>
+            <p>
+                Moving large items or need extra cargo space? Our trucks and vans are
+                the perfect solution.
+            </p>
+            <p>
+                <strong>Example Vehicles:</strong> Ford Transit, Chevrolet Silverado
+            </p>
+            <button>View Details</button>
+        </div>
+    </section>
+
+    <script>
+      // Toggle navigation menu on mobile
+      document.querySelector(".nav-toggle").addEventListener("click", () => {
+        document
+          .querySelector(".nav-links")
+          .classList.toggle("nav-links-visible");
+      });
+    </script>
+</body>
+</html>
