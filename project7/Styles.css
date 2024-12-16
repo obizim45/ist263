@@ -420,27 +420,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* search bar costum
 
 /* Basic Reset */
 * {
@@ -532,3 +512,160 @@ button {
     }
 }
 
+
+
+
+
+
+
+
+
+
+/* General Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: orange;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+/* Main Section */
+main {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: orange;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.booking-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.step {
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+}
+
+.step img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.step h2 {
+    font-size: 24px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+    color: #777;
+}
+
+.payment-cancellation {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.payment-cancellation h2 {
+    font-size: 28px;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.payment-cancellation ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.payment-cancellation ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .booking-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 80%;
+    }
+
+    .payment-cancellation {
+        padding: 20px;
+    }
+}
