@@ -416,3 +416,119 @@ footer {
     transform: scale(1.1);
     border-color: #004080; /* Navy blue border on hover */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Search and Sort Container */
+.search-sort {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; /* space between the elements */
+    padding: 10px;
+    background-color: #f4f4f4; /* light background */
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+/* Input Field */
+#inventory-search {
+    width: 250px; /* width of the input */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Input Focus Style */
+#inventory-search:focus {
+    border-color: #0056b3; /* blue border on focus */
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Search Button */
+.search-btn {
+    background-color: #0056b3;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* space between icon and text */
+}
+
+.search-btn:hover {
+    background-color: #004080;
+}
+
+/* Sort Button */
+.sort-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.sort-btn:hover {
+    background-color: #218838;
+}
+
+/* Font Awesome Icon */
+.fas.fa-search {
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-sort {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #inventory-search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
