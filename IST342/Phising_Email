@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Services - Exclusive Internship</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 50px;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+      }
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>I Got You! 🎯</h1>
+      <p>This was a simulated phishing attack for educational purposes.</p>
+      <p>Always verify links before clicking!</p>
+      <p>
+        and by the way this is your dear student Olivie Bizimana <br />
+        IST342
+      </p>
+    </div>
+  </body>
+</html>
